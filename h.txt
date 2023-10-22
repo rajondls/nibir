@@ -1,0 +1,10 @@
+echo "# nibir" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rajondls/nibir.git
+git push -u origin main
+
+remote: Permission to rajondls/nibir.git denied to hrrajon.
+fatal: unable to access 'https://github.com/rajondls/nibir.git/': The requested URL returned error: 403
